@@ -1,0 +1,4 @@
+[sqlalchemy.dialects]
+cdata_csv = cdata.sqlalchemy_csv.dialect:CSVDBSDialect
+csv = cdata.sqlalchemy_csv.dialect:CSVDBSDialect
+
