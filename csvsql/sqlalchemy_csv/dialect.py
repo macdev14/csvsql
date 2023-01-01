@@ -6,7 +6,7 @@ from .log import class_logger, mtd_logger
 @class_logger
 class CSVDBSDialect(BaseDialect):
   name = "csv"
-  driver = "cdata.csv"
+  driver = "csvsql.csv"
 
   supports_unicode_statements = True
   supports_unicode_binds = True
